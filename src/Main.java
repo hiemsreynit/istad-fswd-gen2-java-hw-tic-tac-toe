@@ -89,10 +89,6 @@ public class Main {
             }
         }
         String welcome = "Welcome to New Game!";
-//        System.out.println("Press q to quite the game.");
-//        if (new Scanner(System.in).nextLine().equals("q")) {
-//            quiteGame(new Scanner(System.in).nextLine());
-//        }
         for (byte ch : welcome.getBytes()) {
             Thread.sleep(50);
             System.out.print((char) ch);
@@ -106,11 +102,4 @@ public class Main {
             System.out.println();
         }
     }
-//    public static void quiteGame(String input) {
-//        input = new Scanner(System.in).nextLine();
-//        if (input.equalsIgnoreCase("q")){
-//            System.out.println("Thanks for playing!");
-//            System.exit(0);
-//        }
-//    }
 }
